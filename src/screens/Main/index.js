@@ -3,11 +3,23 @@ import Body from '../Body'
 import Header from '../Home'
 
 export default class Main extends Component {
+
+    constructor(props){
+        super(props)
+        this.state={
+            selected:''
+        }
+    }
+    
     render() {
         return (
             <div>
-                <Header/>
-                <Body/>
+                <Header passProps={
+                    (value)=> this.setState({
+                        selected: value
+                    })
+                }/>
+                <Body selected={this.state.selected}/>
                 <Footer/>
             </div>
         )
@@ -17,7 +29,7 @@ export default class Main extends Component {
 
 const Footer = () => {
     return(
-        <div className="container-fluid" style={{
+        <div className="container-fluid " style={{
             background:'skyblue'
         }}>
             <div className="row mt-4">
