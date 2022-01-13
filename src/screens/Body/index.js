@@ -73,6 +73,7 @@ const Home=() => {
                     </div>
                     <div className="col-lg-2"/>
                 </div>
+                
                 <div class="container-fluid p-0 ">
                     <hr/>
                     <DisplayTheWorkDone/>
@@ -81,6 +82,8 @@ const Home=() => {
                 </React.Fragment>
     )
 }
+
+
 
 const DisplayTheJob = () => (
     <div className="container  ">
@@ -95,13 +98,12 @@ const DisplayTheJob = () => (
             <hr className="d-none "/>
         </div>
         <div className="row ">
+            
             <div className="col-12 border mb-2">
-                <div className="m-1  lg-m-7">
-                    <div class="ratio ratio-16x9 ">
-                        <iframe src="https://www.youtube.com/embed/Y-5Z5b-3Nl8"/>
-                    </div>
-                </div>
+            <div class="fb-video" data-href="https://fb.watch/avwUiKevL5/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/KRTNews/videos/256628266475490/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/KRTNews/videos/256628266475490/">ਮਹਿਕਾਂ ਵੰਡੇ ਅਮਿਤ ਮੰਟੋ ਸੁਜਾਨਪੁਰ ਪੰਜਾਬ ਦਾ...ਕਾਂਗ੍ਰੇਸੀ ਨੇਤਾ ਅਮਿਤ ਸਿੰਘ ਮੰਟੋ ਦਾ ਨਵਾਂ ਗਾਣਾ</a><p>ਮਹਿਕਾਂ ਵੰਡੇ ਅਮਿਤ ਮੰਟੋ ਸੁਜਾਨਪੁਰ ਪੰਜਾਬ ਦਾ...कोंग्रेसी नेता अमित सिंह मंटू का नया गाना 
+                Amit Manto #song #congress #punjab Sujanpur</p>Posted by <a href="https://www.facebook.com/KRTNews/">KRT News Network</a> on Friday, 22 October 2021</blockquote></div>
             </div>
+            
             <div className="col-12 border mb-2">
                 <div className="m-1  lg-m-7">
                     <div class="ratio ratio-16x9 ">
